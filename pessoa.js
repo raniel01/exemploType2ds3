@@ -27,4 +27,5 @@ var empresa;
         };
         return Pessoa;
     }());
+    empresa.Pessoa = Pessoa;
 })(empresa || (empresa = {}));
